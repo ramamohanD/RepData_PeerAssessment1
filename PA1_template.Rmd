@@ -18,7 +18,7 @@ First read the data csv file using read.csv function and load into activitydata 
 For this datafile which is located need to be set as working directory. 
 
 ```{r}
-setwd("C:/my files/Coursera Learning/R_Programming Files/RR Project1/repdata-data-activity")
+setwd("C:/my files/Coursera Learning/repo/RepData_PeerAssessment1/")
 activitydata <- read.csv("activity.csv", colClasses=c("integer", "Date", "integer"))
 ```
 
