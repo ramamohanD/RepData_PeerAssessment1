@@ -19,7 +19,6 @@ For this datafile which is located need to be set as working directory.
 
 
 ```r
-setwd("C:/my files/Coursera Learning/repo/RepData_PeerAssessment1/")
 activitydata <- read.csv(unz("activity.zip", "activity.csv"), colClasses=c("integer", "Date", "integer"))
 ```
 
