@@ -14,7 +14,7 @@ This document describes the analysis of data from a personal activity monitoring
 
 **Loading and preprocessing the data:**
 
-First read the data csv file using read.csv function and load into activitydata variable. 
+First read the data csv file using read.csv function and load into activitydata data frame variable. 
 For this datafile which is located need to be set as working directory. 
 
 ```{r}
@@ -23,7 +23,7 @@ activitydata <- read.csv(unz("activity.zip", "activity.csv"), colClasses=c("inte
 
 **Basic summary:**
 
-Let's have look at summary of activity data 
+Let's have a look at summary of activity data 
 
 ```{r}
 str(activitydata)
